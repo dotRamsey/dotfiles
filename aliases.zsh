@@ -45,6 +45,7 @@ alias copykey='command cat ~/.ssh/id_rsa.public | pbcopy'
 # JavaScript
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias nsetup="npm install && npm run dev"
+alias ysetup="yarn install && yarn run dev"
 alias watch="npm run watch"
 alias jest="./node_modules/.bin/jest"
 
