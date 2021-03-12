@@ -18,6 +18,7 @@ alias sites="cd $HOME/Sites"
 alias a="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
+alias awo="c require dotRamsey/starter && a dotRamsey:install && c dump-autoload && fresh && nsetup && valet secure"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
