@@ -3,7 +3,6 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'shivammathur/php'
 
 # Binaries
 brew 'awscli'
@@ -12,7 +11,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
-brew 'gnupg2'
+brew 'gnupg'
 brew 'grep'
 brew 'httpie'
 brew 'hub'
@@ -24,8 +23,6 @@ brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
-brew devdocs
-brew 'raycast'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -36,12 +33,12 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
-brew 'shivammathur/php/php@8.0'
 brew 'php@7.4'
 brew 'php@7.3'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
+brew 'meilisearch'
 brew 'memcached'
 brew 'mysql'
 brew 'nginx'
@@ -50,6 +47,8 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
+cask '1password'
+cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
 cask 'caffeine'
@@ -64,27 +63,29 @@ cask 'google-chrome'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'notion'
 cask 'phpstorm'
+cask 'ray'
 cask 'screenflow'
+cask 'signal'
 cask 'skype'
 cask 'slack'
+cask 'steam'
+cask 'sublime-text'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'there'
 cask 'tinkerwell'
 cask 'transmission'
 cask 'transmit'
+cask 'tunnelbear'
+cask 'tuple'
 cask 'visual-studio-code'
 cask 'vlc'
-cask 'whatsapp'
+cask 'zoom'
 
 # Quicklook
-cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'quicklook-json'
-cask 'quicklook-csv'
 
 # Fonts
 cask 'font-lato'
@@ -96,9 +97,11 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
+mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
 mas 'Speedtest', id: 1153157709
+mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
